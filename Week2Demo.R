@@ -13,4 +13,8 @@ is.integer(i)
 date1 <- as.Date("2019-03-08") #yy/mm/dd
 date1
 class(date1)
-as.numeric(date1)
+as.numeric(date1) #seconds since epoch
+
+vctr <- c(10, 150, 30, 40, 55.6) #assigning a vector
+vctr
+
